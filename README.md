@@ -1,6 +1,6 @@
 # SLAM-Robotics
 
-This is the repository that contains source code for the [SLAM Robotics website](https://slamrobotics.github.io).
+This is the repository that contains source code for the [SLAM Robotics website](https://slam-robotics.github.io).
 
 
 # Website License
