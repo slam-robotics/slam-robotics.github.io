@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+      content="We are experts in SLAM (Simultaneous Localization and Mapping) for robotics. Our research focuses on enabling robots to understand and navigate their environments by creating maps while simultaneously keeping track of their location.">
+  <meta name="keywords" content="Robotics, SLAM, Computer Vision">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SLAM ROBOTICS: Simultaenous Localization and Mapping makes robot envision future</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/LOGO_BW.png" type="image/png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">SLAM ROBOTICS</h1><h1>
+          <h2 class="title is-3 publication-title">Simultaneous Localization and Mapping <br> makes robot envision future</h2>
+          </h1>
+              <span class="link-block">
+                <a href="https://www.slam-robotics.com/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>SLAM Demo(soon)</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://www.slam-robotics.com/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>3D Gaussian Splatting Demo(soon)</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/slamrobotics"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-Go2-RViz">
+          <video poster="" id="Go2_RViz" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/Go2_RViz.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-Navigation2-maze">
+          <video poster="" id="maze" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/maze.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-Gaussian-Splatting">
+          <video poster="" id="onthefly" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/onthefly_bonn_balloon_100.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <!--/ Description. -->
+        <h2 class="title is-3">Vision</h2>
+        <div class="content has-text-justified">
+          <p>
+            SLAM Robotics specializes in developing advanced SLAM solutions integrating LiDAR and visual sensors on both quadruped and wheeled robotic platforms. Our systems support robust localization and mapping in dynamic and unstructured environments through tightly coupled sensor fusion.
+          </p>
+          <p>
+            We are actively researching 3D Gaussian Splatting to accelerate high-fidelity reconstruction and simulation of real-world environments, enabling scalable, photorealistic scene understanding for autonomous agents.
+          </p>
+          <p>
+            Our work bridges modern SLAM algorithms for real-time semantic 3D mapping, scene graph construction, and navigation-aware perception. We deploy these capabilities on mobile robotics platforms with real-time monitoring and control via a custom iOS interface.
+          </p>
+        </div>
+        
+        <h2 class="title is-3">What We Do</h2>
+        <div class="content has-text-justified">
+          <p>
+            We focus on the perception stack of autonomous robots—covering SLAM, semantic mapping, and 3D reconstruction—with emphasis on ROS 2-based systems integration. Our SLAM pipeline incorporates multi-sensor fusion (LiDAR, RGB-D, IMU, and GNSS) and integrates with Navigation2 for fully autonomous exploration and path planning.
+          </p>
+          <p>
+            We also explore online 3D reconstruction techniques for map densification, loop closure with semantic consistency, and real-time relocalization using learned descriptors. Our team actively contributes to scalable 3D map representation formats compatible with long-term autonomy and simulation-in-the-loop systems.
+          </p>
+          <p>
+            A key part of our platform is the integration of robotics middleware with mobile systems. We leverage the ROS2iOS bridge to develop iOS applications for real-time state monitoring, teleoperation, and visualization of robot maps and trajectories.
+          </p>
+          <p>
+            <strong>Core Areas:</strong> SLAM (LiDAR, vison sensor), Semantic 3D Mapping, 3D Gaussian Splatting, ROS2 to iOS
+          </p>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Demo video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Demo video. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="columns is-centered">
+    <img src="./static/images/LOGO_Blue.png" alt="Company Logo"
+    style="max-width: 600px; width: 80%; height: auto;">
+  </div>
+  <div class="columns is-centered">
+  <span id="contact-link">[Enable JavaScript]</span>
+    <script>
+      const user = "support";
+      const domain = "slam-robotics.com";
+      const email = `${user}@${domain}`;
+      const link = document.createElement("a");
+      link.href = `mailto:${email}`;
+      link.innerText = "Contact us";
+      document.getElementById("contact-link").innerHTML = "";
+      document.getElementById("contact-link").appendChild(link);
+    </script>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <div class="icon-container">
+        <a href="https://www.slam-robotics.com" class="external-link" target="_blank">
+          <i class="fab fa-linkedin base-icon"></i>
+        </a>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This webpage template is adapted from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>,
+            under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
